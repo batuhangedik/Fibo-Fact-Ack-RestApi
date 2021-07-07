@@ -269,9 +269,9 @@ Response Size:
 
 To run this project on your own computer
 
-> git clone https://github.com/batuhangedik/akinon-test-case.git
+> git clone https://github.com/batuhangedik/Fibo-Fact-Ack-RestApi.git
 
-> cd akinon-test-case
+> cd RESTAPINODEJS
 
 > npm install
 
