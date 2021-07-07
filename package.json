@@ -1,7 +1,7 @@
 {
-  "name": "akinon-test-case",
+  "name": "restapi-nodejs",
   "version": "1.0.0",
-  "description": "Akinon Devops Akademi Test Case çalışması.",
+  "description": "Fibonacci,Factorial and Ackermann Functions on RestApi.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
