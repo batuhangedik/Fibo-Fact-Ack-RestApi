@@ -1,7 +1,7 @@
 {
-  "name": "fib-fact-ack RestApi with Node",
+  "name": "akinon-test-case",
   "version": "1.0.0",
-  "description": "Running Fibonacci,Factorial and Ackermann functions on RestApi.",
+  "description": "Akinon Devops Akademi Test Case çalışması.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

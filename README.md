@@ -1,8 +1,7 @@
-# Fibonacci - Factorial - Ackermann Functions RestApi with Node.js
+# Fibonacci , Factorial , Ackermann Functions RestApi
 
-I have developed this project with node.js and express.
-First,i wrote down the functions which we want to see results
-And then, i built a restful side.
+For developing this project, i used node.js language and express framework.
+First of all, I wrote down the fibonacci, factorial and ackermann functions.
 
 > Fibonacci
 
@@ -39,9 +38,8 @@ function ackermann(m, n) {
 }
 ```
 
-And then i make them a restful services which return a JSON with a RestApi. 
-
-- In the beginning, i created a folder.
+Then I turned these functions into Restful service that returns Json with Rest Api.
+- For the first,i created a folder
 
 > run > cmd
 
@@ -49,12 +47,10 @@ And then i make them a restful services which return a JSON with a RestApi.
 
 > mk dir akinon-test-case
 
-
-Then,i started a npm module in the terminal of vscode;
-
+Next we need to start the npm module from the terminal in vscode.
 > npm init -y
 
-After installations , importing express;
+To include express after installations are complete;
 
 > npm install express
 
@@ -62,13 +58,13 @@ Done.
 
 Then I created a routes folder in the project directory and created the routes.js file in it and the app.js file in the root project directory.
 
-Making configurations of express,server and ports ind app.js
+We perform express, server and port settings in app.js.
 
 The functions and the http methods that will run them will be implemented in the route.js file.
 
 We will write our http methods in `var appRouter = function(app){}`.
 
-- The Get method for the fibonacci;
+- Get method for Fibonacci;
 
 ```js
 app.get("/fibonacci", function (req, res) {
@@ -117,10 +113,9 @@ app.get("/ackermann", function (req, res) {
 ```
 
 
-
 Let's send the requests and test it. I used the Postman application for this.
 
-First of all, we start the server by saying `node.` in the terminal.
+First of all, we start the server by writing `node.` in the terminal.
 
 ```json
 PS C:\Users\batuh\Desktop\akinon-test-case> node .
@@ -140,8 +135,7 @@ Result:
 }
 ```
 
-Lets make it with another number:
-
+Lets try with another number:
 > `GET http://localhost:3000/fibonacci?sayi=12`
 
 Result:
@@ -153,7 +147,7 @@ Result:
 }
 ```
 
-Factorial için deneyelim:
+FOr the Factorial:
 
 > `GET http://localhost:3000/factorial?sayi=6`
 
@@ -204,9 +198,9 @@ Result:
 }
 ```
 
-### Errors
+### Hata Durumları
 
-- Let's see what kind of result is returned when Request is written incorrectly..
+- Let's see what the result is when the request has written wrong.
 
 > ` GET http://localhost:3000/fibonacci?sayi=`
 
@@ -237,7 +231,7 @@ Result:
 
 
 
-We ran http requests for the all 3 algorithms,and take a result in JSON format.
+For our 3 algorithms, we run it with http queries and get a return in json format..
 
 ### Response Size && Response Time
 
@@ -273,7 +267,7 @@ Response Size:
 
 ### -------------------------------------------------------------
 
-For runnig this on your computer,you can follow;
+To run this project on your own computer
 
 > git clone https://github.com/batuhangedik/akinon-test-case.git
 
@@ -283,5 +277,5 @@ For runnig this on your computer,you can follow;
 
 > node .
 
-these steps.
-But its require a Node.js on your machine.
+you can follow these steps.
+But nodejs must be installed on your computer.
