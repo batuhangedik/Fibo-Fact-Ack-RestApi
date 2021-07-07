@@ -147,7 +147,7 @@ Result:
 }
 ```
 
-FOr the Factorial:
+For the Factorial:
 
 > `GET http://localhost:3000/factorial?sayi=6`
 
@@ -198,7 +198,7 @@ Result:
 }
 ```
 
-### Hata Durumları
+### Error Situations
 
 - Let's see what the result is when the request has written wrong.
 
