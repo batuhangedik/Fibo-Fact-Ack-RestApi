@@ -45,7 +45,7 @@ Then I turned these functions into Restful service that returns Json with Rest A
 
 > cd Desktop
 
-> mk dir akinon-test-case
+> mk dir RESTAPINODEJS
 
 Next we need to start the npm module from the terminal in vscode.
 > npm init -y
@@ -118,7 +118,7 @@ Let's send the requests and test it. I used the Postman application for this.
 First of all, we start the server by writing `node.` in the terminal.
 
 ```json
-PS C:\Users\batuh\Desktop\akinon-test-case> node .
+PS C:\Users\batuh\Desktop\RESTAPINODEJS> node .
 3000... portu dinleniliyor
 ```
 
